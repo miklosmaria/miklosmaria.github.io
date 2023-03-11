@@ -3,29 +3,35 @@
 
 <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="contact.css">
 </head>
 
 <body>
     <header>
-        <nav>
+        <nav class="nav-bar">
             <ul>
                 <li><a href="index.html#propos">A propos de moi</a></li>
                 <li><a href="index.html#calendrier">Mon calendrier</a></li>
+                <li><a href="contact.html" id="contact-link">Contacter Maria</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <h2>Contacter Maria</h2>
-        <form>
-            <label>Votre nom:</label><br>
-            <input type="text" name="nom"><br>
-            <label>Votre email:</label><br>
-            <input type="text" name="email"><br>
-            <label>Votre message:</label><br>
-            <textarea name="message" rows="5" cols="30"></textarea><br>
-            <input type="submit" value="Envoyer">
-        </form>
+        <div class="contact-form">
+            <h2>Contacter Maria</h2>
+
+            
+            <form>
+                <label>Votre nom:</label>
+                <input type="text" name="nom"><br>
+                <label>Votre email:</label>
+                <input type="text" name="email"><br>
+                <textarea name="message" rows="5" cols="30">Votre message...
+                </textarea><br>
+                <input type="submit" id="button" value="Envoyer">
+            </form>
+        </div>
     </main>
 
     <footer>

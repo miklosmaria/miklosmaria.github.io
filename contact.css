@@ -1,0 +1,33 @@
+@import "style.css";
+
+
+.contact-form{
+
+    border-radius: 10px;
+    margin: 100px auto;
+    width: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: rgb(210, 211, 150);
+    text-align: center;
+}
+
+.contact-form input{
+    padding: 5px;
+    width: 45%;
+    margin: 10px 10px;
+}
+
+
+.contact-form textarea{
+    resize: none;
+}
+
+.contact-form #button{
+    width: 50%;
+    margin: 10px auto;
+    background-color: rgba(0, 136, 169, 1);
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+}

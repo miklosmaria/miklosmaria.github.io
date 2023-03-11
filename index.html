@@ -3,25 +3,24 @@
 
 <head>
     <meta charset="utf-8">
-    <!-- <link rel="stylesheet" href="css/style.css">
-        <script src="js/script.js"></script> -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <nav>
+        <nav class="nav-bar">
             <ul>
                 <li><a href="#propos">A propos de moi</a></li>
                 <li><a href="#calendrier">Mon calendrier</a></li>
-                <li><a href="contact.html">Contacter Maria</a></li>
+                <li><a href="contact.html" id="contact-link">Contacter Maria</a></li>
             </ul>
         </nav>
 
     </header>
     <main>
-        <div>
+        <div class="apropos">
             <h1>Maria Miklos</h1>
-            <img src="photomaria.png" alt="photo de  moi" width="200" height="240">
+            <img src="photomaria.png" alt="photo de  moi" width="200" height="240" id="idphoto">
 
             <h2 id="propos">A propos de moi</h2>
             <p>Bonjour à tous! Merci d'avoir pris le temps de visiter mon site personnel.</p>
@@ -29,7 +28,7 @@
                 cours de Technologies Web & Réseaux afin de développer mon background informatique.</p>
             <p>Je suis passionnée par la programmation et c'est pourquoi je fais un mineur d'informatique.</p>
         </div>
-        <div id="calendrier">
+        <div id="calendrier" class="calendrier">
             <h2>Mon calendrier académique</h2>
             <table border="1">
                 <thead>
@@ -43,29 +42,29 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td rowspan="4">Printemps</td>
-                        <td>08:15 - 10:00</td>
+                        <td rowspan="4" id="spring">Printemps</td>
+                        <td class="time">08:15 - 10:00</td>
                         <td>Mesures & Intégration</td>
                         <td>Mesures & Intégration (TP)</td>
-                        <td>Geométrie Différentielle</td>
+                        <td>Géométrie Différentielle</td>
                     </tr>
                     <tr>
-                        <td>10:15 - 12:00</td>
+                        <td class="time">10:15 - 12:00</td>
                         <td>Géométrie Différentielle</td>
                         <td>Mesures & Intégration</td>
-                        <td>Geométrie Différentielle (TP)</td>
+                        <td>Géométrie Différentielle (TP)</td>
                     </tr>
                     <tr>
-                        <td>14:15 - 16:00 </td>
+                        <td class="time">14:15 - 16:00 </td>
                         <td>Mesures & Intégration (TP)</td>
                         <td>Technolongies Web & Réseaux</td>
                         <td>Géométrie Différentielle</td>
                     </tr>
                     <tr>
-                        <td>16:15 - 18:00 </td>
+                        <td class="time">16:15 - 18:00 </td>
                         <td>Géométrie Différentielle (TP)</td>
                         <td>Technolongies Web & Réseaux (TP)</td>
-                        <td>XX</td>
+                        <td class="libre"></td>
                     </tr>
                 </tbody>
             </table>
